@@ -1,0 +1,92 @@
+*{
+    box-sizing:border-box;
+    padding:10px;
+}
+
+h1 {
+color:red;
+font-size: 60px ;
+display:flex;
+justify-content: center;
+font-family:'Courier New', Courier, monospace
+
+}
+
+h2 {
+    color:red;
+    font-size: 30px ;
+    display:flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace
+    
+    }
+h3{
+    color:red;
+    font-size: 20px ;
+    display:flex;
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace
+}
+p{
+    color: bisque;
+    font-size: 20px ;
+    display:flex;
+    justify-content: center;
+    
+text-align: center;
+font-family:'Courier New', Courier, monospace
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque ;
+}
+ .cars{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+
+
+ }
+ .about{
+    background-image: url(R.jpg);
+    display: flex;
+    justify-content: center;
+
+ }
+ .contact{
+    background-image: url(Verstappen_Champions_.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+ }
+
+.pictures{
+    display:flex;
+    justify-content: space-around;
+
+    
+}
+body{
+    background-image: url(f1tr.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.about h1{
+    color: bisque;
+    font-size: 30px ;
+    font-family:'Courier New', Courier, monospace
+}
+
+body{
+    text-align: center;
+}
+.race-highlights{
+    display: flex;
+    justify-content:center
+    
+}
